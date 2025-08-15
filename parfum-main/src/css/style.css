@@ -1,29 +1,30 @@
+body{
+    background-color: #f9f9f9;
+}
+
 header .promo-info{
     color: #ffffff;
     background-color: #000000;
     padding: 10px 8px;
     font-family: 'Bricolage Grotesque', sans-serif ;
-    text-align: center;
-    margin-bottom: 10px;
+    text-align: center; 
 }
 
 .NavegationBar{
-    display: flex;
-    padding: 20px 30px;
-    flex-direction: column;
+    padding: 30px;
 }
 
 
 .NavegationBar .nav-top {
     display: flex;
-    justify-content: flex-end;
-    gap: 450px;
 }
 
-.NavegationBar h1{
+.NavegationBar .logo {
     font-family: 'Cormorant Garamond', serif;
-    font-size: 60px;
+    font-size: 50px;
     font-weight: 700;
+    text-align: center;
+    flex: 1;
 }
 
 .NavegationBar .account{
@@ -32,12 +33,20 @@ header .promo-info{
     align-items: center;
 }
 
+.NavegationBar .account img{
+    width: 40px;   
+    height: 40px; 
+}
+
 .NavegationBar .products-menu{
     display: flex;
-    align-items: center;
     justify-content: center;
     gap: 50px;
     padding: 30px;
     font-family: 'Bricolage Grotesque', sans-serif;
     font-weight: 400;
+}
+
+.product img{
+    
 }
