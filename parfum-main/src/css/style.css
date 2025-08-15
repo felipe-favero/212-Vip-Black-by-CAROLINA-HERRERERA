@@ -1,12 +1,12 @@
 body{
     background-color: #f9f9f9;
+    font-family: 'Bricolage Grotesque', sans-serif ;
 }
 
 header .promo-info{
     color: #ffffff;
     background-color: #000000;
     padding: 10px 8px;
-    font-family: 'Bricolage Grotesque', sans-serif ;
     text-align: center; 
 }
 
@@ -43,10 +43,20 @@ header .promo-info{
     justify-content: center;
     gap: 50px;
     padding: 30px;
-    font-family: 'Bricolage Grotesque', sans-serif;
     font-weight: 400;
 }
 
-.product img{
-    
+.product{
+    display: flex;
+    padding: 50px 200px;
+    flex-wrap: wrap;
+}
+
+.product .info{
+    padding-right: 25px;
+    width: 500px;
+}
+
+.product .info .details{
+    text-align: justify;
 }
