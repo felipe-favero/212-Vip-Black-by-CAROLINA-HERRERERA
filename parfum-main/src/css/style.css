@@ -16,7 +16,6 @@ header .promo-info{
     padding: 30px;
 }
 
-
 .NavegationBar .nav-top {
     display: flex;
 }
@@ -48,6 +47,9 @@ header .promo-info{
     font-weight: 400;
 }
 
+/* FIM DO HEADER */
+
+/* INICIO DO MAIN */
 .product{
     display: flex;
     padding: 20px 200px;
@@ -86,3 +88,12 @@ header .promo-info{
     border: none;
     border-radius: 5px;
 }
+
+.product .info .add-to-bag:hover{
+    background-color: #676767;
+    cursor: pointer;
+    transition: background-color 0.25s ease;
+}
+
+/* FIM DO MAIN */
+
